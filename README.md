@@ -3,9 +3,16 @@
 This repository contains the final code from a coding tutorial included in the
 NAB RadioDNS Setup Tutorial session held in July 2020.
 
-It includes a simple PHP script that you can use and adapt to build a compliant
-RadioDNS SI file and image assets from a source MySQL database, directory of
-station logos and an access token for the
+It includes a simple PHP script (index.php) that you can use and adapt to build a
+compliantRadioDNS SI file and image assets from a source MySQL database,
+directory of station logos and an access token for the
 [NRSC PI Codes](https://picodes.nrscstandards.org) Call Signs API.
 
 The `radio.sql` file is a dump of the database used in the demo.
+
+There is an alternate version of the script (index-googlesheets.php), which uses
+a Google Sheet published in CSV format as it's data source.
+Create a Google Sheet with a first row of
+``` callsign	name	description	genre	logo_url	stream_url
+and then use the File -> Publish to the Web -> Entire Document as CSV and copy
+the URL provided (ending output=csv) into the script.
