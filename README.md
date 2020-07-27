@@ -16,3 +16,5 @@ Create a Google Sheet with a first row of
 ``` callsign	name	description	genre	logo_url	stream_url
 and then use the File -> Publish to the Web -> Entire Document as CSV and copy
 the URL provided (ending output=csv) into the script.
+
+There is an example [Google Sheet](https://docs.google.com/spreadsheets/d/1k14sJX80GhtRLJwOzBQ8KjseLeom3ByGZiA7R3Z1mZA/edit?usp=sharing) and its [CSV output.](https://docs.google.com/spreadsheets/d/e/2PACX-1vT8vZCX3E5jvk519354UTwrmLEgZjuHibjZaPAIyDkRMZuG5ULERyDNd5qOs_dK85sioZT1EnowkAKB/pub?output=csv)
