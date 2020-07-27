@@ -13,7 +13,9 @@ The `radio.sql` file is a dump of the database used in the demo.
 There is an alternate version of the script (index-googlesheets.php), which uses
 a Google Sheet published in CSV format as it's data source.
 Create a Google Sheet with a first row of
-``` callsign	name	description	genre	logo_url	stream_url
+
+    callsign	name	description	genre	logo_url	stream_url
+
 and then use the File -> Publish to the Web -> Entire Document as CSV and copy
 the URL provided (ending output=csv) into the script.
 
