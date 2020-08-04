@@ -1,7 +1,7 @@
 # NAB RadioDNS Setup Tutorial
 
 This repository contains the final code from a coding tutorial included in the
-NAB RadioDNS Setup Tutorial session held in July 2020.
+[NAB RadioDNS Setup Tutorial](https://education.nab.org/courses/20491/webinars/10307) session held in July 2020.
 
 It includes a simple PHP script (index.php) that you can use and adapt to build a
 compliantRadioDNS SI file and image assets from a source MySQL database,
